@@ -3,8 +3,9 @@ Recursive angular directive is a simple angular example of how to use a recursiv
 
 ##Data structure 
 For simplicity we are using a simple json file to represent the menu items, each item will be represented by a **node** element which consists of 
-1. name
-2. childnodes (array of nodes)
+1. Name
+2. ChildNodes(array of nodes)
+
 
 ##Directive
 The directive is a simple directive that renders the current node as an HTML anchor and if there is child nodes it render it as unorder list
